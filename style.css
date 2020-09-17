@@ -1,0 +1,22 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: azure;
+}
+
+#container{
+    padding: 50px;
+    width: 800px; 
+}
+
+#textGroup{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: navy;
+}
