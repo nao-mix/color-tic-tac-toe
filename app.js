@@ -43,6 +43,7 @@ for(let b=0; b<buttons.length; b++){
             let gameover = fixButton(buttons[b]); 
 
             if(totalNum == 9 && gameover == 1) {   
+                textContent.style.color = 'navy';
                 textContent.innerHTML = 'Draw the Game...';
                 return;
             }
