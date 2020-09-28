@@ -21,7 +21,10 @@ Das Spiel ist für zwei Personen. Es gibt 3x3 quadratische Felder im Spielfeld. 
 
 ## Features
 
-Beim klassischen Spiel werden die Zeichen - Kreuze (X) und Kreise (O) - benutzt. Hier aber wurden stattdessen die Farben - Pink und Blau(turquoise) - benutzt. <br><br>
+Beim klassischen Spiel werden die Zeichen - Kreuze (X) und Kreise (O) - benutzt. Hier aber wurden stattdessen die Farben - Pink und Blau(turquoise) - benutzt. <br>
+
+### Implementation
+
 Die 3×3 Felder (Zellen) werden als neun HTML button gestellt. Jeder Button hat default-Value 100 (freier Button). Der von Player 1 ausgewählten Button wird durch Value 0 substituieren. Von Player 2 - durch Value 10.<br>
 
 Um das Spiel zu gewinnen, muss man alle drei Zellen in einer Reihe setzen. Es gibt acht mögliche Reihen (3 Zeilen, 3 Spalten und 2 Diagonalen). Beim jeden "Click-Event" werden alle 8 Reihen gerechnet, d.h., Value von 3 Zellen in einer Reihe werden addieren. Wenn der addierte Wert einer Reihe 0 wäre, gewinnt der Player 1. Wenn 30 wäre, gewinnt der Player 2. 
