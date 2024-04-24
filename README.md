@@ -1,6 +1,6 @@
 # color-tic-tac-toe
 
-### Link to the game: [https://aufderreise.com/tictactoe/](https://aufderreise.com/tictactoe/)
+### Link to the game: [https://stackblitz.com/edit/naomix-color-tic-tac-toe](https://stackblitz.com/edit/naomix-color-tic-tac-toe)
 
 ## About The Project
 
